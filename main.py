@@ -7,7 +7,7 @@ import os
 
 def main():
 
-    model_path = "C:\\Users\\Szymon\\Documents\\Rice_Classification\\Rice_Classification\\model_ryz.h5"  
+    model_path = "model_ryz.h5"  
     if not os.path.exists(model_path):
         print(f"Plik modelu '{model_path}' nie został znaleziony.")
         return
